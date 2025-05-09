@@ -1,0 +1,4 @@
+*.pyc
+*.swp
+/data_guardian/static/description/screenshots/*.png  # Exclude placeholder images
+/tests/test_data/*.zip  # Exclude large test files

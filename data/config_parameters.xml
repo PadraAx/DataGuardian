@@ -1,0 +1,6 @@
+<odoo>
+    <record id="param_webhook_secret" model="ir.config_parameter">
+        <field name="key">data_guardian.webhook_secret</field>
+        <field name="value">change-this-to-random-string</field>
+    </record>
+</odoo>

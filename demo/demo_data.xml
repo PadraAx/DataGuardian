@@ -1,0 +1,30 @@
+<!-- data/demo_data.xml -->
+<record id="user_backup_admin" model="res.users">
+    <field name="login">backup_admin@example.com</field>
+    <field name="groups_id" eval="[(4, ref('data_guardian.group_backup_admin'))]"/>
+</record>
+<odoo>
+    <!-- Backup Admin -->
+    <record id="user_backup_admin" model="res.users">
+        <field name="name">Backup Admin</field>
+        <field name="login">backup_admin@example.com</field>
+        <field name="password">backup_admin_123</field>
+        <field name="groups_id" eval="[(4, ref('base.group_system'))]"/>
+    </record>
+
+    <!-- Backup Operator -->
+    <record id="user_backup_operator" model="res.users">
+        <field name="name">Backup Operator</field>
+        <field name="login">backup_operator@example.com</field>
+        <field name="password">backup_operator_123</field>
+        <field name="groups_id" eval="[(4, ref('data_guardian.group_backup_user'))]"/>
+    </record>
+
+    <!-- Backup Auditor -->
+    <record id="user_backup_auditor" model="res.users">
+        <field name="name">Backup Auditor</field>
+        <field name="login">backup_auditor@example.com</field>
+        <field name="password">backup_auditor_123</field>
+        <field name="groups_id" eval="[(4, ref('data_guardian.group_backup_auditor'))]"/>
+    </record>
+</odoo>

@@ -1,0 +1,109 @@
+﻿Root Directory: data_guardian
+
+[Folder] controllers
+[Folder] data
+[Folder] demo
+[Folder] docs
+[Folder] i18n
+[Folder] models
+[Folder] security
+[Folder] static
+[Folder] templates
+[Folder] tests
+[Folder] utils
+[Folder] views
+[Folder] wizards
+[File] README.md (Extension: .md)
+[File] __init__.py (Extension: .py)
+[File] __manifest__.py (Extension: .py)
+[File] controllers\api.py (Extension: .py)
+[File] controllers\api_schema.py (Extension: .py)
+[File] controllers\main.py (Extension: .py)
+[File] controllers\portal.py (Extension: .py)
+[File] controllers\webhooks.py (Extension: .py)
+[File] controllers\__init__.py (Extension: .py)
+[File] data\error_codes.xml (Extension: .xml)
+[File] data\ir_cron.xml (Extension: .xml)
+[File] data\mail_templates.xml (Extension: .xml)
+[File] data\migration_templates.xml (Extension: .xml)
+[File] data\res_config.xml (Extension: .xml)
+[File] data\security.xml (Extension: .xml)
+[File] demo\demo_data.xml (Extension: .xml)
+[File] docs\ADMIN_GUIDE.md (Extension: .md)
+[File] docs\API.md (Extension: .md)
+[File] docs\COMPLIANCE.md (Extension: .md)
+[File] docs\MIGRATION.md (Extension: .md)
+[File] docs\RELEASE_NOTES.md (Extension: .md)
+[File] docs\STORE_SUBMISSION.md (Extension: .md)
+[File] docs\TECHNICAL.md (Extension: .md)
+[File] docs\USER_GUIDE.md (Extension: .md)
+[Folder] i18n\extra
+[File] i18n\en.po (Extension: .po)
+[File] i18n\fa.po (Extension: .po)
+[File] i18n\extra\currency_mappings.csv (Extension: .csv)
+[File] i18n\extra\date_formats.csv (Extension: .csv)
+[Folder] models\backup
+[Folder] models\migration
+[File] models\security.py (Extension: .py)
+[File] models\__init__.py (Extension: .py)
+[Folder] models\backup\strategies
+[File] models\backup\backup_job.py (Extension: .py)
+[File] models\backup\restore_job.py (Extension: .py)
+[File] models\backup\retention.py (Extension: .py)
+[File] models\backup\__init__.py (Extension: .py)
+[File] models\backup\strategies\full.py (Extension: .py)
+[File] models\backup\strategies\incremental.py (Extension: .py)
+[File] models\migration\connector.py (Extension: .py)
+[File] models\migration\mapping_presets.py (Extension: .py)
+[File] models\migration\transformer.py (Extension: .py)
+[File] models\migration\__init__.py (Extension: .py)
+[File] security\audit_rules.xml (Extension: .xml)
+[File] security\data_protection.xml (Extension: .xml)
+[File] security\groups.xml (Extension: .xml)
+[File] security\ir.model.access.csv (Extension: .csv)
+[Folder] static\description
+[Folder] static\lib
+[Folder] static\src
+[Folder] static\description\screenshots
+[File] static\description\icon.png (Extension: .png)
+[File] static\description\index.html (Extension: .html)
+[File] static\description\screenshots\dashboard.png (Extension: .png)
+[File] static\description\screenshots\wizard.png (Extension: .png)
+[File] static\lib\crypto.js (Extension: .js)
+[Folder] static\src\css
+[Folder] static\src\js
+[File] static\src\css\styles.scss (Extension: .scss)
+[File] static\src\js\backup.js (Extension: .js)
+[File] static\src\js\migration.js (Extension: .js)
+[Folder] templates\email_templates
+[File] templates\backup_report.xml (Extension: .xml)
+[File] templates\email_templates\backup_success.xml (Extension: .xml)
+[File] templates\email_templates\migration_fail.xml (Extension: .xml)
+[Folder] tests\performance
+[Folder] tests\test_data
+[File] tests\test_backup.py (Extension: .py)
+[File] tests\test_migration.py (Extension: .py)
+[File] tests\test_security.py (Extension: .py)
+[File] tests\__init__.py (Extension: .py)
+[File] tests\performance\test_large_backups.py (Extension: .py)
+[File] tests\test_data\backup_sample.zip (Extension: .zip)
+[File] tests\test_data\migration_sample.csv (Extension: .csv)
+[Folder] utils\cloud
+[Folder] utils\migration
+[File] utils\checksum.py (Extension: .py)
+[File] utils\encryption.py (Extension: .py)
+[File] utils\logging_config.py (Extension: .py)
+[File] utils\security_utils.py (Extension: .py)
+[File] utils\__init__.py (Extension: .py)
+[File] utils\cloud\aws.py (Extension: .py)
+[File] utils\cloud\google.py (Extension: .py)
+[File] utils\migration\conflict_resolver.py (Extension: .py)
+[File] utils\migration\data_cleaner.py (Extension: .py)
+[File] views\backup_views.xml (Extension: .xml)
+[File] views\migration_views.xml (Extension: .xml)
+[File] views\templates.xml (Extension: .xml)
+[File] views\wizard_views.xml (Extension: .xml)
+[File] wizards\backup_wizard.py (Extension: .py)
+[File] wizards\migration_wizard.py (Extension: .py)
+[File] wizards\restore_wizard.py (Extension: .py)
+[File] wizards\__init__.py (Extension: .py)

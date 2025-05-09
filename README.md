@@ -170,3 +170,81 @@ _*Native Odoo functionality_
 - [Technical Specifications](TECHNICAL.md)
 - [API Reference](API.md)
 - [Migration Guide](MIGRATION.md)
+
+# DataGuardian
+
+DataGuardian is a comprehensive backup, restore, and data migration tool for Odoo 17.0. It provides flexibility to manage different levels of data backup (database, company, user, etc.), supports multi-source data migration, and ensures full audit compliance. The module is ideal for SaaS providers, businesses with multi-tenant environments, and those looking for robust and flexible backup and data migration capabilities.
+
+## Features
+
+### 1. **Backup & Restore**
+   - **Multiple Backup Scopes**: Backup data at various levels:
+     - **Database Level**: Entire database backup.
+     - **Company Level**: Specific company data backup.
+     - **User Level**: Backup specific user-related data.
+     - **Custom Level**: Select specific models or records for backup.
+   - **Granular Restore**: Restore from any of the backup scopes (database, company, user).
+   - **Scheduled Backups**: Schedule automatic backups at regular intervals.
+   - **Backup History**: Maintain historical records of backups.
+   - **Flexible Restore Options**: Restore a specific company, user, or data set without affecting other customers.
+
+### 2. **Data Migration**
+   - **Multi-Source Connectivity**: Supports migration from various sources:
+     - Odoo instances (all versions)
+     - CSV/Excel files
+     - Common ERP systems (SAP, Dynamics, NetSuite)
+     - Databases (PostgreSQL, MySQL, MSSQL)
+     - APIs (REST, SOAP)
+   - **Intelligent Field Mapping**:
+     - Auto-mapping with AI-assisted field matching.
+     - Manual overrides with drag-and-drop interface and transformation rules (formulas, lookups).
+   - **Data Transformation Engine**:
+     - Cleanse and standardize data (e.g., date, phone numbers).
+     - Apply validation rules and business logic transformations.
+   - **Migration Preview & Simulation**:
+     - Dry run mode to preview and estimate migration time.
+     - Validation reports for data quality, conflict detection, and completeness analysis.
+   - **Incremental Migration**:
+     - Delta detection for changed records.
+     - Resumable migrations in case of interruptions.
+   - **Conflict Resolution**:
+     - Duplicate handling with merge strategies.
+     - Reference resolution to recreate relational links.
+   - **Post-Migration Verification**:
+     - Data reconciliation and user acceptance testing (UAT).
+     - Financial balances and statistical sampling.
+   - **Migration Templates**:
+     - Industry-specific templates (Retail, Manufacturing, Services).
+     - Pre-configured mappings and standard workflows.
+   - **Performance Optimization**:
+     - Parallel processing and multi-threaded migrations.
+     - Chunking with configurable batch sizes and memory management.
+   - **Audit & Compliance**:
+     - Full audit trail with before/after values.
+     - GDPR compliance, sensitive data handling, and right-to-be-forgotten support.
+  
+### 3. **SaaS-Specific Features**
+   - **Tenant Isolation**: Manage backups and restores per customer (tenant).
+   - **Bandwidth Throttling**: Control the bandwidth used during migration.
+   - **Subscription-Level Access Control**: Limit backup functionality based on subscription tier.
+
+### 4. **User Experience**
+   - **Guided Step-by-Step Wizards**: Simplified process for backup and migration management.
+   - **Progress Tracking**: Track migration progress with estimated time of arrival (ETA).
+   - **Pause/Resume Capability**: Pause and resume ongoing operations for flexibility.
+   - **Error Handling**: Detailed error logging and automatic retries for transient errors.
+
+## Business Benefits
+
+- **Reduced Onboarding Friction**: Cut migration time from weeks to days and reduce professional services costs.
+- **Improved Data Quality**: Automated data cleaning ensures consistency and reduces errors.
+- **Lower Risk**: Comprehensive validation and rollback capabilities minimize the chances of data loss.
+- **Upsell Opportunities**: Provide premium connectors, advanced transformation rules, and priority support.
+
+## Installation
+
+To install DataGuardian, follow the steps below:
+
+1. Clone the repository into your Odoo custom module directory:
+   ```bash
+   git clone https://github.com/PadraAx/DataGuardian.git

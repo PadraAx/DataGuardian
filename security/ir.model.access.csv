@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_backup_job,backup.job,model_backup_job,base.group_system,1,1,1,0
+access_backup_job_user,backup.job,model_backup_job,data_guardian.group_backup_user,1,1,1,0
+access_restore_job,restore.job,model_restore_job,base.group_system,1,1,1,0
+access_migration_job,migration.job,model_migration_job,base.group_system,1,1,1,1
+access_mapping_preset,mapping.preset,model_mapping_preset,base.group_system,1,1,1,1
+access_cloud_credential,cloud.credential,model_cloud_credential,base.group_system,1,1,1,1
+access_backup_history,backup.history,model_backup_history,data_guardian.group_backup_auditor,1,0,0,0
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_webhook,webhook.endpoint,model_webhook_endpoint,base.group_system,1,1,1,1

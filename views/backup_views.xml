@@ -1,0 +1,2 @@
+<!-- views/backup_views.xml -->
+<button name="execute_test" string="Run DR Test" class="oe_highlight" type="object"/>

@@ -1,0 +1,7 @@
+<template id="backup_dashboard">
+    <!-- Dashboard HTML -->
+</template>
+
+<template id="backup_wizard_form">
+    <!-- Wizard Form HTML -->
+</template>
